@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../spring-vaadin"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.dependency.packagePresentation": "flat",
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
