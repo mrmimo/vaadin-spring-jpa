@@ -45,13 +45,15 @@ Each time, when you define a form you have to verbosely mention informations tha
 
 I thought that I would rather like to define my form like this:
 
+```java
 class ProductForm extends ....  {
    public ProductForm() {
       super( Product.class, // <- domain object
              new String[] { "name", "description", "price", "tax" } // <- fields I would like in my form
              );
-}            
-           
+}               
+```
+
 So I decided to build something like this that uses Vaadin for GUI, JPA, spring-data for JPA repositories and spring for dependency injection.
 
 In the above example ProductForm is automatically injected with ProductRepository, but it also is automatically configured with apropriate GUI 
